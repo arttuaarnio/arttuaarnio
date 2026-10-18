@@ -9,6 +9,7 @@ INFO = [
     ("header", "arttuaarnio@github"),
     ("tagline", "i code, sometimes. claude codes more."),
     ("blank", ""),
+    ("row", "Web", "arttuaarnio.com"),
     ("row", "OS", "macOS, tiled by AeroSpace"),
     ("row", "Shell", "zsh + powerlevel10k"),
     ("row", "Terminal", "WezTerm"),
@@ -45,6 +46,14 @@ APPLE = r'''                     ..'
        "cooc*"    "*coo'"'''.split("\n")
 LEAF_ROWS = 4  # first rows are the leaf
 
+EIGHT = [
+    "  ___  ",
+    " ( _ ) ",
+    " / _ \\ ",
+    "| (_) |",
+    " \\___/ ",
+]
+
 # Catppuccin Macchiato (dark) and Latte (light)
 THEMES = {
     "dark_mode.svg": dict(
@@ -59,7 +68,7 @@ THEMES = {
     ),
 }
 
-W, H = 920, 400
+W, H = 920, 420
 FONT = "Menlo, Consolas, 'DejaVu Sans Mono', monospace"
 # logo grid
 LX, LY, LCW, LLH = 30, 62, 8.2, 17   # left x, first baseline, char width, line height
@@ -81,8 +90,11 @@ def logo(t):
     cx = LX + (CX + 0.5) * LCW
     cy = LY + (CY - 0.35) * LLH
     out.append(f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{RX * LCW * 0.86:.1f}" ry="{RY * LLH * 0.86:.1f}" fill="{t["circle"]}" stroke="{t["ring"]}" stroke-width="1.5"/>')
-    out.append(f'<text x="{cx:.1f}" y="{cy + 13:.1f}" fill="{t["eight"]}" font-size="38" font-weight="bold" '
-               f'text-anchor="middle" font-family="Helvetica, Arial, sans-serif">8</text>')
+    # ASCII "8", centred on the circle in the same character grid as the apple
+    for i, line in enumerate(EIGHT):
+        x = LX + (CX + 0.5 - len(EIGHT[0]) / 2) * LCW
+        out.append(text(round(x, 1), LY + (CY - 2 + i) * LLH, line.rstrip(), t["eight"], size=14,
+                        weight="bold", length=len(line.rstrip()) * LCW))
     for row, line in enumerate(APPLE):
         chars = list(line)
         for col, ch in enumerate(chars):
