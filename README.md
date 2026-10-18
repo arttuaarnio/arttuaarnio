@@ -1,11 +1,5 @@
-<h1 align="left">Hey, I'm Arttu 👋</h1>
-
-<h3 align="left">📍 Helsinki, Finland 🇫🇮</h3>
-
-<p align="left">
-  I like tech. 3rd-year dev-student. 
-</p>
-
-<p align="left">
-  🔗 Check out my <a href="https://arttuaarnio.com" target="_blank">portfolio</a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img alt="arttuaarnio: i code, sometimes. claude codes more." src="dark_mode.svg">
+</picture>
