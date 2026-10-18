@@ -46,24 +46,16 @@ APPLE = r'''                     ..'
        "cooc*"    "*coo'"'''.split("\n")
 LEAF_ROWS = 4  # first rows are the leaf
 
-EIGHT = [
-    "  ___  ",
-    " ( _ ) ",
-    " / _ \\ ",
-    "| (_) |",
-    " \\___/ ",
-]
-
 # Catppuccin Macchiato (dark) and Latte (light)
 THEMES = {
     "dark_mode.svg": dict(
         bg="#24273a", border="#363a4f", text="#cad3f5", dim="#6e738d", ball="#a5adcb",
-        leaf="#a6da95", key="#f5a97f", accent="#8aadf4", eight="#ffffff",
+        leaf="#a6da95", key="#f5a97f", accent="#8aadf4",
         swatches=["#ed8796", "#f5a97f", "#eed49f", "#a6da95", "#8bd5ca", "#8aadf4", "#c6a0f6", "#f5bde6"],
     ),
     "light_mode.svg": dict(
-        bg="#eff1f5", border="#ccd0da", text="#4c4f69", dim="#9ca0b0", ball="#8c8fa1",
-        leaf="#40a02b", key="#fe640b", accent="#1e66f5", eight="#4c4f69",
+        bg="#eff1f5", border="#ccd0da", text="#4c4f69", dim="#9ca0b0", ball="#4c4f69",
+        leaf="#40a02b", key="#fe640b", accent="#1e66f5",
         swatches=["#d20f39", "#fe640b", "#df8e1d", "#40a02b", "#179299", "#1e66f5", "#8839ef", "#ea76cb"],
     ),
 }
@@ -72,7 +64,6 @@ W, H = 920, 420
 FONT = "Menlo, Consolas, 'DejaVu Sans Mono', monospace"
 # logo grid
 LX, LY, LCW, LLH = 30, 62, 8.2, 17   # left x, first baseline, char width, line height
-CY, CX, RY, RX = 10, 13, 3.3, 6.4     # hole for the 8, in grid rows/cols (chars are ~2x tall)
 # info column
 IX, IY, ILH = 330, 48, 20
 LABEL_WIDTH = 22  # label + dot leader, in characters
@@ -85,32 +76,11 @@ def text(x, y, s, fill, size=13, weight="normal", length=None):
 
 
 def logo(t):
-    """Apple with an 8-ball cut into it, all characters: one <text> per row, coloured runs as <tspan>s."""
-    grid = [list(line.ljust(len(max(APPLE, key=len)))) for line in APPLE]
-    color = [[t["leaf"] if r < LEAF_ROWS else t["ball"]] * len(grid[0]) for r in range(len(grid))]
-    for r, row in enumerate(grid):  # cut the ball's circle out of the apple
-        for c in range(len(row)):
-            if ((r - CY) / RY) ** 2 + ((c - CX) / RX) ** 2 <= 1:
-                row[c] = " "
-    top, left = CY - len(EIGHT) // 2, CX - len(EIGHT[0]) // 2
-    for i, line in enumerate(EIGHT):  # write the 8 into the hole
-        for j, ch in enumerate(line):
-            if ch != " ":
-                grid[top + i][left + j], color[top + i][left + j] = ch, t["eight"]
     out = []
-    for r, row in enumerate(grid):
-        line = "".join(row).rstrip()
-        if not line:
-            continue
-        runs, start = [], 0
-        for c in range(1, len(line) + 1):
-            if c == len(line) or color[r][c] != color[r][start]:
-                bold = ' font-weight="bold"' if color[r][start] == t["eight"] else ""
-                runs.append(f'<tspan fill="{color[r][start]}"{bold}>{escape(line[start:c])}</tspan>')
-                start = c
+    for row, line in enumerate(APPLE):
+        color = t["leaf"] if row < LEAF_ROWS else t["ball"]
         # textLength keeps every row on the same character grid whatever monospace font the viewer has
-        out.append(f'<text x="{LX}" y="{LY + r * LLH}" font-size="14" xml:space="preserve" '
-                   f'textLength="{len(line) * LCW:.1f}" lengthAdjust="spacing">{"".join(runs)}</text>')
+        out.append(text(LX, LY + row * LLH, line.rstrip(), color, size=14, length=len(line.rstrip()) * LCW))
     return out
 
 

@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">
 <rect x="0.5" y="0.5" width="919" height="419" rx="10" fill="#24273a" stroke="#363a4f"/>
-<text x="30" y="62" font-size="14" xml:space="preserve" textLength="196.8" lengthAdjust="spacing"><tspan fill="#a6da95">                     ..&#x27;</tspan></text>
-<text x="30" y="79" font-size="14" xml:space="preserve" textLength="188.6" lengthAdjust="spacing"><tspan fill="#a6da95">                 ,xNMM.</tspan></text>
-<text x="30" y="96" font-size="14" xml:space="preserve" textLength="180.4" lengthAdjust="spacing"><tspan fill="#a6da95">               .OMMMMo</tspan></text>
-<text x="30" y="113" font-size="14" xml:space="preserve" textLength="155.8" lengthAdjust="spacing"><tspan fill="#a6da95">               lMM&quot;</tspan></text>
-<text x="30" y="130" font-size="14" xml:space="preserve" textLength="221.4" lengthAdjust="spacing"><tspan fill="#a5adcb">     .;loddo:.  .olloddol;.</tspan></text>
-<text x="30" y="147" font-size="14" xml:space="preserve" textLength="237.8" lengthAdjust="spacing"><tspan fill="#a5adcb">   cKMMMMMMMMMMNWMMMMMMMMMM0:</tspan></text>
-<text x="30" y="164" font-size="14" xml:space="preserve" textLength="237.8" lengthAdjust="spacing"><tspan fill="#a5adcb"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</tspan></text>
-<text x="30" y="181" font-size="14" xml:space="preserve" textLength="221.4" lengthAdjust="spacing"><tspan fill="#a5adcb"> XMMMMMMMMM     MMMMMMMMMX.</tspan></text>
-<text x="30" y="198" font-size="14" xml:space="preserve" textLength="213.2" lengthAdjust="spacing"><tspan fill="#a5adcb">;MMMMMMM    </tspan><tspan fill="#ffffff" font-weight="bold">___</tspan><tspan fill="#a5adcb">    MMMMMM:</tspan></text>
-<text x="30" y="215" font-size="14" xml:space="preserve" textLength="213.2" lengthAdjust="spacing"><tspan fill="#a5adcb">:MMMMMM    </tspan><tspan fill="#ffffff" font-weight="bold">(</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">_</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">)</tspan><tspan fill="#a5adcb">    MMMMM:</tspan></text>
-<text x="30" y="232" font-size="14" xml:space="preserve" textLength="221.4" lengthAdjust="spacing"><tspan fill="#a5adcb">.MMMMMM    </tspan><tspan fill="#ffffff" font-weight="bold">/</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">_</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">\</tspan><tspan fill="#a5adcb">    MMMMMX.</tspan></text>
-<text x="30" y="249" font-size="14" xml:space="preserve" textLength="237.8" lengthAdjust="spacing"><tspan fill="#a5adcb"> kMMMMM   </tspan><tspan fill="#ffffff" font-weight="bold">|</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">(_)</tspan><tspan fill="#a5adcb"> </tspan><tspan fill="#ffffff" font-weight="bold">|</tspan><tspan fill="#a5adcb">   MMMMMMWd.</tspan></text>
-<text x="30" y="266" font-size="14" xml:space="preserve" textLength="246.0" lengthAdjust="spacing"><tspan fill="#a5adcb"> &#x27;XMMMMM   </tspan><tspan fill="#ffffff" font-weight="bold">\___/</tspan><tspan fill="#a5adcb">   MMMMMMMMMMk</tspan></text>
-<text x="30" y="283" font-size="14" xml:space="preserve" textLength="246.0" lengthAdjust="spacing"><tspan fill="#a5adcb">  &#x27;XMMMMMMM     MMMMMMMMMMMMK.</tspan></text>
-<text x="30" y="300" font-size="14" xml:space="preserve" textLength="229.6" lengthAdjust="spacing"><tspan fill="#a5adcb">    kMMMMMMMMMMMMMMMMMMMMMMd</tspan></text>
-<text x="30" y="317" font-size="14" xml:space="preserve" textLength="221.4" lengthAdjust="spacing"><tspan fill="#a5adcb">     ;KMMMMMMMWXXWMMMMMMMk.</tspan></text>
-<text x="30" y="334" font-size="14" xml:space="preserve" textLength="205.0" lengthAdjust="spacing"><tspan fill="#a5adcb">       &quot;cooc*&quot;    &quot;*coo&#x27;&quot;</tspan></text>
+<text x="30" y="62" fill="#a6da95" font-size="14" font-weight="normal" xml:space="preserve" textLength="196.8" lengthAdjust="spacing">                     ..&#x27;</text>
+<text x="30" y="79" fill="#a6da95" font-size="14" font-weight="normal" xml:space="preserve" textLength="188.6" lengthAdjust="spacing">                 ,xNMM.</text>
+<text x="30" y="96" fill="#a6da95" font-size="14" font-weight="normal" xml:space="preserve" textLength="180.4" lengthAdjust="spacing">               .OMMMMo</text>
+<text x="30" y="113" fill="#a6da95" font-size="14" font-weight="normal" xml:space="preserve" textLength="155.8" lengthAdjust="spacing">               lMM&quot;</text>
+<text x="30" y="130" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="221.4" lengthAdjust="spacing">     .;loddo:.  .olloddol;.</text>
+<text x="30" y="147" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="237.8" lengthAdjust="spacing">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
+<text x="30" y="164" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="237.8" lengthAdjust="spacing"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
+<text x="30" y="181" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="221.4" lengthAdjust="spacing"> XMMMMMMMMMMMMMMMMMMMMMMMX.</text>
+<text x="30" y="198" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="213.2" lengthAdjust="spacing">;MMMMMMMMMMMMMMMMMMMMMMMM:</text>
+<text x="30" y="215" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="213.2" lengthAdjust="spacing">:MMMMMMMMMMMMMMMMMMMMMMMM:</text>
+<text x="30" y="232" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="221.4" lengthAdjust="spacing">.MMMMMMMMMMMMMMMMMMMMMMMMX.</text>
+<text x="30" y="249" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="237.8" lengthAdjust="spacing"> kMMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
+<text x="30" y="266" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="246.0" lengthAdjust="spacing"> &#x27;XMMMMMMMMMMMMMMMMMMMMMMMMMMk</text>
+<text x="30" y="283" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="246.0" lengthAdjust="spacing">  &#x27;XMMMMMMMMMMMMMMMMMMMMMMMMK.</text>
+<text x="30" y="300" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="229.6" lengthAdjust="spacing">    kMMMMMMMMMMMMMMMMMMMMMMd</text>
+<text x="30" y="317" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="221.4" lengthAdjust="spacing">     ;KMMMMMMMWXXWMMMMMMMk.</text>
+<text x="30" y="334" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="205.0" lengthAdjust="spacing">       &quot;cooc*&quot;    &quot;*coo&#x27;&quot;</text>
 <text x="330" y="48" font-size="14" xml:space="preserve"><tspan fill="#8aadf4" font-weight="bold">arttuaarnio@github </tspan><tspan fill="#6e738d">────────────────────────────────────────────</tspan></text>
 <text x="330" y="68" fill="#cad3f5" font-size="14" font-weight="bold" xml:space="preserve">i code, sometimes. claude codes more.</text>
 <text x="330" y="108" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">Web:</tspan><tspan fill="#6e738d"> ................ </tspan><tspan fill="#cad3f5">arttuaarnio.com</tspan></text>
