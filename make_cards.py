@@ -21,7 +21,6 @@ INFO = [
     ("row", "Music", "hip-hop, r&b, jazz"),
     ("row", "Food", "cooking, coffee and eating, mostly eating"),
     ("row", "Billiards", "always one more rack"),
-    ("row", "Fashion", "streetwear"),
     ("blank", ""),
     ("swatches", ""),
 ]
@@ -60,7 +59,7 @@ THEMES = {
     ),
 }
 
-W, H = 920, 420
+W, H = 920, 400
 FONT = "Menlo, Consolas, 'DejaVu Sans Mono', monospace"
 # logo grid
 LX, LY, LCW, LLH = 30, 62, 8.2, 17   # left x, first baseline, char width, line height

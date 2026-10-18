@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">
-<rect x="0.5" y="0.5" width="919" height="419" rx="10" fill="#eff1f5" stroke="#ccd0da"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="400" viewBox="0 0 920 400" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+<rect x="0.5" y="0.5" width="919" height="399" rx="10" fill="#eff1f5" stroke="#ccd0da"/>
 <text x="30" y="62" fill="#40a02b" font-size="14" font-weight="normal" xml:space="preserve" textLength="196.8" lengthAdjust="spacing">                     ..&#x27;</text>
 <text x="30" y="79" fill="#40a02b" font-size="14" font-weight="normal" xml:space="preserve" textLength="188.6" lengthAdjust="spacing">                 ,xNMM.</text>
 <text x="30" y="96" fill="#40a02b" font-size="14" font-weight="normal" xml:space="preserve" textLength="180.4" lengthAdjust="spacing">               .OMMMMo</text>
@@ -30,13 +30,12 @@
 <text x="330" y="288" font-size="13" xml:space="preserve"><tspan fill="#fe640b">Music:</tspan><tspan fill="#9ca0b0"> .............. </tspan><tspan fill="#4c4f69">hip-hop, r&amp;b, jazz</tspan></text>
 <text x="330" y="308" font-size="13" xml:space="preserve"><tspan fill="#fe640b">Food:</tspan><tspan fill="#9ca0b0"> ............... </tspan><tspan fill="#4c4f69">cooking, coffee and eating, mostly eating</tspan></text>
 <text x="330" y="328" font-size="13" xml:space="preserve"><tspan fill="#fe640b">Billiards:</tspan><tspan fill="#9ca0b0"> .......... </tspan><tspan fill="#4c4f69">always one more rack</tspan></text>
-<text x="330" y="348" font-size="13" xml:space="preserve"><tspan fill="#fe640b">Fashion:</tspan><tspan fill="#9ca0b0"> ............ </tspan><tspan fill="#4c4f69">streetwear</tspan></text>
-<rect x="330" y="375" width="26" height="16" rx="3" fill="#d20f39"/>
-<rect x="360" y="375" width="26" height="16" rx="3" fill="#fe640b"/>
-<rect x="390" y="375" width="26" height="16" rx="3" fill="#df8e1d"/>
-<rect x="420" y="375" width="26" height="16" rx="3" fill="#40a02b"/>
-<rect x="450" y="375" width="26" height="16" rx="3" fill="#179299"/>
-<rect x="480" y="375" width="26" height="16" rx="3" fill="#1e66f5"/>
-<rect x="510" y="375" width="26" height="16" rx="3" fill="#8839ef"/>
-<rect x="540" y="375" width="26" height="16" rx="3" fill="#ea76cb"/>
+<rect x="330" y="355" width="26" height="16" rx="3" fill="#d20f39"/>
+<rect x="360" y="355" width="26" height="16" rx="3" fill="#fe640b"/>
+<rect x="390" y="355" width="26" height="16" rx="3" fill="#df8e1d"/>
+<rect x="420" y="355" width="26" height="16" rx="3" fill="#40a02b"/>
+<rect x="450" y="355" width="26" height="16" rx="3" fill="#179299"/>
+<rect x="480" y="355" width="26" height="16" rx="3" fill="#1e66f5"/>
+<rect x="510" y="355" width="26" height="16" rx="3" fill="#8839ef"/>
+<rect x="540" y="355" width="26" height="16" rx="3" fill="#ea76cb"/>
 </svg>
