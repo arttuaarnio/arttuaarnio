@@ -9,7 +9,7 @@ INFO = [
     ("header", "arttuaarnio@github"),
     ("tagline", "i code, sometimes. claude codes more."),
     ("blank", ""),
-    ("row", "Web", "arttuaarnio.com"),
+    ("row", "Web", "arttuaarnio.com", "← click me"),
     ("row", "OS", "macOS, tiled by AeroSpace"),
     ("row", "Shell", "zsh + powerlevel10k"),
     ("row", "Terminal", "WezTerm"),
@@ -97,12 +97,13 @@ def info(t):
                        f'<tspan fill="{t["accent"]}" font-weight="bold">{escape(parts[0])} </tspan>'
                        f'<tspan fill="{t["dim"]}">{"─" * (66 - len(parts[0]))}</tspan></text>')
         elif kind == "row":
-            label, value = parts
+            label, value, *hint = parts  # optional hint is shown dimmed after the value
             dots = " " + "." * (LABEL_WIDTH - len(label) - 3) + " "
             out.append(f'<text x="{IX}" y="{y}" font-size="13" xml:space="preserve">'
                        f'<tspan fill="{t["key"]}">{escape(label)}:</tspan>'
                        f'<tspan fill="{t["dim"]}">{dots}</tspan>'
-                       f'<tspan fill="{t["text"]}">{escape(value)}</tspan></text>')
+                       f'<tspan fill="{t["text"]}">{escape(value)}</tspan>'
+                       + (f'<tspan fill="{t["dim"]}">  {escape(hint[0])}</tspan>' if hint else "") + '</text>')
         elif kind == "swatches":
             for i, c in enumerate(t["swatches"]):
                 out.append(f'<rect x="{IX + i * 30}" y="{y - 13}" width="26" height="16" rx="3" fill="{c}"/>')

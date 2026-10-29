@@ -19,7 +19,7 @@
 <text x="30" y="334" fill="#a5adcb" font-size="14" font-weight="normal" xml:space="preserve" textLength="205.0" lengthAdjust="spacing">       &quot;cooc*&quot;    &quot;*coo&#x27;&quot;</text>
 <text x="330" y="48" font-size="14" xml:space="preserve"><tspan fill="#8aadf4" font-weight="bold">arttuaarnio@github </tspan><tspan fill="#6e738d">────────────────────────────────────────────</tspan></text>
 <text x="330" y="68" fill="#cad3f5" font-size="14" font-weight="bold" xml:space="preserve">i code, sometimes. claude codes more.</text>
-<text x="330" y="108" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">Web:</tspan><tspan fill="#6e738d"> ................ </tspan><tspan fill="#cad3f5">arttuaarnio.com</tspan></text>
+<text x="330" y="108" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">Web:</tspan><tspan fill="#6e738d"> ................ </tspan><tspan fill="#cad3f5">arttuaarnio.com</tspan><tspan fill="#6e738d">  ← click me</tspan></text>
 <text x="330" y="128" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">OS:</tspan><tspan fill="#6e738d"> ................. </tspan><tspan fill="#cad3f5">macOS, tiled by AeroSpace</tspan></text>
 <text x="330" y="148" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">Shell:</tspan><tspan fill="#6e738d"> .............. </tspan><tspan fill="#cad3f5">zsh + powerlevel10k</tspan></text>
 <text x="330" y="168" font-size="13" xml:space="preserve"><tspan fill="#f5a97f">Terminal:</tspan><tspan fill="#6e738d"> ........... </tspan><tspan fill="#cad3f5">WezTerm</tspan></text>
